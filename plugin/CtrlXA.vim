@@ -32,9 +32,9 @@ if !exists('g:CtrlXA_Toggles')
       \ ['set', 'unset'] ,
       \ ['is', 'isnot'] ,
       \ ['==', '!='] , ['<', '>'], ['<=', '>='], ['=~', '!~'],
-      \ ['up', 'down'] ,
+      \ ['up', 'down'], ['Up', 'Down'] ,['UP', 'DOWN'] ,
+      \ ['right', 'left'], ['Right', 'Left'], ['RIGHT', 'LEFT'] ,
       \ ['before', 'after'] ,
-      \ ['right', 'wrong'], ['Right', 'Wrong'], ['rightly', 'wrongly'], ['Rightly', 'Wrongly'] ,
       \ ['enable', 'disable'], ['Enable', 'Disable'], ['enabled', 'disabled'], ['Enabled', 'Disabled'] ,
       \ ]
 endif
