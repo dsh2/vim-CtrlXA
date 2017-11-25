@@ -7,7 +7,7 @@ keywords in lists such as `true/false`, `yes/no`, `set/unset` or
 `yesterday/today/tomorrow`.
 
 These keywords cycles are configurable by the global variable
-`g:CtrlXA_Toggles` which defaults to
+*g:CtrlXA_Toggles* which defaults to
 
 >
   let g:CtrlXA_Toggles = [
@@ -24,8 +24,8 @@ These keywords cycles are configurable by the global variable
       \ ]
 <
 
-There is also its buffer-local analogue, which allows for file-type specific
-keyword cycles by, for example
+There is also its buffer-local analogue *b:CtrlXA_Toggles*, which allows for
+file-type specific keyword cycles by, for example
 
 >
   autocmd FileType vim

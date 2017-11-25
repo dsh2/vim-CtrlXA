@@ -13,10 +13,10 @@ These keywords are configurable by the variable `g:CtrlXA_Toggles` which default
       \ ['set', 'unset'] ,
       \ ['is', 'isnot'] ,
       \ ['==', '!='] , ['<', '>'], ['<=', '>='], ['=~', '!~'],
-      \ ['up', 'down'] ,
+      \ ['up', 'down'], ['Up', 'Down'] ,['UP', 'DOWN'] ,
+      \ ['right', 'left'], ['Right', 'Left'], ['RIGHT', 'LEFT'] ,
       \ ['before', 'after'] ,
-      \ ['right', 'wrong'], ['Right', 'Wrong'], ['rightly', 'wrongly'], ['Rightly', 'Wrongly'] ,
-      \ ['enable', 'disable'], ['Enable', 'Disable'], ['enabled', 'disabled'], ['Enabled', 'Disabled'] ,
+      \ ['enable', 'disable'], ['Enable', 'Disable'], ['enabled', 'disabled'], ['Enabled', 'Disabled']
       \ ]
 ```
 
