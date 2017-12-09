@@ -11,16 +11,19 @@ These keywords cycles are configurable by the global variable
 
 >
   let g:CtrlXA_Toggles = [
-      \ ['true', 'false'], ['True', 'False'], ['TRUE', 'FALSE'] ,
-      \ ['yes', 'no'], ['Yes', 'No'], ['YES', 'NO'] ,
-      \ ['on', 'off'], ['On', 'Off'], ['ON', 'OFF'] ,
-      \ ['set', 'unset'] ,
+      \ ['true', 'false'], ['True', 'False'], ['TRUE', 'FALSE'],
+      \ ['yes', 'no'], ['Yes', 'No'], ['YES', 'NO'],
+      \ ['on', 'off'], ['On', 'Off'], ['ON', 'OFF'],
+      \ ['set', 'unset'],
+      \ ['enable', 'disable'],
       \ ['is', 'isnot'] ,
       \ ['==', '!='] , ['<', '>'], ['<=', '>='], ['=~', '!~'],
-      \ ['up', 'down'] ,
-      \ ['before', 'after'] ,
-      \ ['right', 'wrong'], ['Right', 'Wrong'], ['rightly', 'wrongly'], ['Rightly', 'Wrongly'] ,
-      \ ['enable', 'disable'], ['Enable', 'Disable'], ['enabled', 'disabled'], ['Enabled', 'Disabled'] ,
+      \ ['up', 'down'], ['Up', 'Down'] ,['UP', 'DOWN'],
+      \ ['right', 'left'], ['Right', 'Left'], ['RIGHT', 'LEFT'] ,
+      \ ['next', 'previous'],
+      \ ['first', 'last'],
+      \ ['before', 'after'],
+      \ ['enabled', 'disabled'],
       \ ]
 <
 

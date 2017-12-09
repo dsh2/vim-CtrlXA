@@ -26,16 +26,19 @@ set cpo&vim
 
 if !exists('g:CtrlXA_Toggles')
   let g:CtrlXA_Toggles = [
-      \ ['true', 'false'], ['True', 'False'], ['TRUE', 'FALSE'] ,
-      \ ['yes', 'no'], ['Yes', 'No'], ['YES', 'NO'] ,
-      \ ['on', 'off'], ['On', 'Off'], ['ON', 'OFF'] ,
-      \ ['set', 'unset'] ,
+      \ ['true', 'false'], ['True', 'False'], ['TRUE', 'FALSE'],
+      \ ['yes', 'no'], ['Yes', 'No'], ['YES', 'NO'],
+      \ ['on', 'off'], ['On', 'Off'], ['ON', 'OFF'],
+      \ ['set', 'unset'],
+      \ ['enable', 'disable'],
       \ ['is', 'isnot'] ,
       \ ['==', '!='] , ['<', '>'], ['<=', '>='], ['=~', '!~'],
-      \ ['up', 'down'], ['Up', 'Down'] ,['UP', 'DOWN'] ,
+      \ ['up', 'down'], ['Up', 'Down'] ,['UP', 'DOWN'],
       \ ['right', 'left'], ['Right', 'Left'], ['RIGHT', 'LEFT'] ,
-      \ ['before', 'after'] ,
-      \ ['enable', 'disable'], ['Enable', 'Disable'], ['enabled', 'disabled'], ['Enabled', 'Disabled'] ,
+      \ ['next', 'previous'],
+      \ ['first', 'last'],
+      \ ['before', 'after'],
+      \ ['enabled', 'disabled'],
       \ ]
 endif
 
