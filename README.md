@@ -27,6 +27,10 @@ There is also its buffer-local analogue, which allows for file-type specific
 keyword cycles by, for example
 
 ```vim
+  autocmd FileType gitrebase
+              \ let b:CtrlXA_Toggles = [
+              \ ['pick', 'fixup', 'squash', 'reword', 'edit', 'drop'],
+              \ ] + g:CtrlXA_Toggles
   autocmd FileType vim
               \ let b:CtrlXA_Toggles = [
               \ ['if', 'else', 'elseif', 'endif'],
@@ -45,4 +49,3 @@ This will
 - inherit the keyword cycles of the global variable override the cycling, and
 - give precedence to the keyword cycles of the local variable.
 
-The first two file-type specific keyword cycles are already included by default.

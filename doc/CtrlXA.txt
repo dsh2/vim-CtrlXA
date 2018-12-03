@@ -43,5 +43,8 @@ file-type specific keyword cycles by, for example
               \ let b:CtrlXA_Toggles = [
               \ ['final', 'draft'],
               \ ] + g:CtrlXA_Toggles
+  autocmd FileType gitrebase if !exists('b:CtrlXA_Toggles') |
+  \ let b:CtrlXA_Toggles = [
+    \ ['pick', 'fixup', 'squash', 'reword', 'edit', 'drop'],
+    \ ] + g:CtrlXA_Toggles | endif
 <
-The first two file-type specific keyword cycles are already included by default.

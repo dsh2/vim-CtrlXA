@@ -42,18 +42,6 @@ if !exists('g:CtrlXA_Toggles')
       \ ]
 endif
 
-augroup CtrlXA
-  autocmd!
-  autocmd FileType vim if !exists('b:CtrlXA_Toggles') |
-              \ let b:CtrlXA_Toggles = [
-              \ ['if', 'else', 'elseif', 'endif'],
-              \ ] + g:CtrlXA_Toggles | endif
-  autocmd FileType sh if !exists('b:CtrlXA_Toggles') |
-              \ let b:CtrlXA_Toggles = [
-              \ ['if', 'elif', 'else', 'fi'],
-              \ ] + g:CtrlXA_Toggles | endif
-augroup end
-
 set nrformats-=alpha
 
 nnoremap <silent><expr> <Plug>(CtrlXA-CtrlA) CtrlXA#CtrlXA("\<C-A>")
