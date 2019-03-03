@@ -17,9 +17,10 @@ function! CtrlXA#CtrlXA(CtrlAX) abort
         return "\"_ciW" . next . "\<esc>" . repeat
       endif
 
-      if cword is# current
-        return ":\<c-u>call search('\\v(\\k|\\x)','cz')\<cr>" . "\"_ciw" . next . "\<esc>" . repeat
-      endif
+	  " TODO: add separate loop for cword (vs. cWORD) to NOT break skip symmetry 
+"       if cword is# current
+"         return ":\<c-u>call search('\\v(\\k|\\x)','cz')\<cr>" . "\"_ciw" . next . "\<esc>" . repeat
+"       endif
 
       let i = i+1
     endwhile
