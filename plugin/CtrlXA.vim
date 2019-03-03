@@ -27,6 +27,7 @@ set cpo&vim
 if !exists('g:CtrlXA_Toggles')
   let g:CtrlXA_Toggles = [
       \ ['true', 'false'], ['True', 'False'], ['TRUE', 'FALSE'],
+      \ ['and', 'or'], ['||', '&&'], ['-a', '-o'],
       \ ['yes', 'no'], ['Yes', 'No'], ['YES', 'NO'],
       \ ['on', 'off'], ['On', 'Off'], ['ON', 'OFF'],
       \ ['up', 'down'], ['Up', 'Down'] ,['UP', 'DOWN'],
